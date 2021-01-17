@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+.header {
+    height: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_title {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.center {
+    padding: 0 calc(50% - 720px);
+}
+
+.container_block {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+    margin-bottom: 30px;
+}
+
+.block_title {
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.block_info {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.block_info:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.active {
+    box-shadow: rgba(97, 204, 78, 0.38) 0 0 5px 1px;
+}
+
+.info_name {
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.info_cal {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #9b9b9b;
+}
+
+.total {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#totalPrice, #totalCal {
+    font-weight: 800;
+    letter-spacing: 2px;
+}

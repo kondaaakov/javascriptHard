@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Конструктор Гамбургера</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&display=swap"
+	      rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="header">
+	<h1 class="header_title">Гамбургерная</h1>
+</header>
+
+<main class="container center">
+	<div class="container_block">
+		<h2 class="block_title">Размер</h2>
+		<div class="block_info" data-size="big" data-price="100" data-cal="40" id="big">
+			<p class="info_name">Большой</p>
+			<p class="info_cal">40 калорий</p>
+			<p class="info_price">100 рублей</p>
+		</div>
+		<div class="block_info" data-size="small" data-price="50" data-cal="20" id="small">
+			<p class="info_name">Маленький</p>
+			<p class="info_cal">20 калорий</p>
+			<p class="info_price">50 рублей</p>
+		</div>
+	</div>
+
+	<div class="container_block">
+		<h2 class="block_title">Начинка</h2>
+		<div class="block_info" data-fill="cheese" data-price="10" data-cal="20">
+			<p class="info_name">С сыром</p>
+			<p class="info_cal">20 калорий</p>
+			<p class="info_price">10 рублей</p>
+		</div>
+		<div class="block_info" data-fill="salad" data-price="20" data-cal="5">
+			<p class="info_name">С салатом</p>
+			<p class="info_cal">5 калорий</p>
+			<p class="info_price">20 рублей</p>
+		</div>
+		<div class="block_info" data-fill="potato" data-price="15" data-cal="10">
+			<p class="info_name">С картофелем</p>
+			<p class="info_cal">10 калорий</p>
+			<p class="info_price">15 рублей</p>
+		</div>
+	</div>
+
+	<div class="container_block">
+		<h2 class="block_title">Дополнительно</h2>
+		<div class="block_info" data-dop="seasoning" data-price="15" data-cal="0">
+			<p class="info_name">Приправа</p>
+			<p class="info_cal">0 калорий</p>
+			<p class="info_price">15 рублей</p>
+		</div>
+		<div class="block_info" data-dop="mayo" data-price="20" data-cal="5">
+			<p class="info_name">Майонез</p>
+			<p class="info_cal">5 калорий</p>
+			<p class="info_price">20 рублей</p>
+		</div>
+	</div>
+	<div class="container_block">
+		<h2 class="block_title">Итоговая цена и калорийность</h2>
+		<p class="total">Итоговая цена: <span id="totalPrice">0</span> рублей</p>
+		<p class="total">Итоговая калорийность: <span id="totalCal">0</span> калорий</p>
+	</div>
+</main>
+<script src="hamburger.js"></script>
+</body>
+</html>
