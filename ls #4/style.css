@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    width: 70%;
+    padding: 20px;
+    margin: 60px auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+}
+
+.block {
+    margin-bottom: 30px;
+}
+
+.block:last-child {
+    margin-bottom: 0;
+}
+
+.block_title {
+    font-size: 21px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.block_text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.block_in_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_label {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.block_textarea {
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+    border: none;
+    max-width: 70%;
+    padding: 20px;
+    outline: none;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s;
+    height: 400px;
+    max-height: 400px;
+}
+
+.block_textarea:focus {
+    box-shadow: rgba(63, 60, 243, 0.24) 0 0 10px 0;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_label {
+    margin-bottom: 25px;
+}
+
+.form_input {
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 4px 0;
+    border: none;
+    padding: 10px;
+    outline: none;
+    letter-spacing: 1px;
+    transition: box-shadow, transform 0.3s;
+    margin-bottom: 10px;
+}
+
+.form_input:focus {
+    box-shadow: rgba(63, 60, 243, 0.24) 0 0 10px 0;
+    transform: scale(1.03);
+}
+
+.form_input_valid {
+    box-shadow: rgba(86, 215, 105, 0.24) 0 0 10px 0;
+}
+
+.form_input_invalid {
+    box-shadow: rgba(215, 86, 86, 0.24) 0 0 10px 0;
+}
+
+.form_error_msg {
+    color: red;
+    width: 215px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Формочка</title>
+
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+	      rel="stylesheet">
+</head>
+<body>
+<main class="container">
+	<div class="block">
+		<h1 class="block_title">Преобразование текста</h1>
+		<p class="block_text">В данном поле одинарные кавычки заменяются на двойные.</p>
+
+		<div class="block_in_block">
+			<label for="text_area" class="block_label">Введите текст</label>
+			<textarea name="text_area" class="block_textarea" id="text_area" cols="30" rows="10"></textarea>
+			<button id="btn_textarea" class="btn btn_textarea">Преобразовать!</button>
+			<p id="place_for_text"></p>
+		</div>
+	</div>
+
+	<div class="block">
+		<h1 class="block_title">Форма</h1>
+		<p class="block_text">В данной форме проходит валидация.</p>
+
+		<div class="block_in_block">
+			<form action="#" id="form" class="form">
+				<label class="form_label">
+					Ваше имя:<br>
+					<input type="text" name="name" id="name" class="form_input">
+				</label>
+
+				<label class="form_label">
+					Ваш номер телефона:<br>
+					<input type="tel" name="tel" id="tel" class="form_input">
+				</label>
+
+				<label class="form_label">
+					Ваша почта:<br>
+					<input type="email" name="mail" id="mail" class="form_input">
+				</label>
+
+				<button class="btn">Отправить</button>
+			</form>
+		</div>
+	</div>
+</main>
+
+<script src="transformtext.js"></script>
+<script src="validator.js"></script>
+<script>
+
+	window.onload = () => {
+	    document.querySelector('#form').addEventListener('submit', event => {
+	        const valid = new Validator();
+
+	        if (!valid.valid) {
+	            event.preventDefault();
+	        }
+	    })
+	}
+</script>
+</body>
+</html>
