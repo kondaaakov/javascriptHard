@@ -1,0 +1,70 @@
+[
+    {
+        "time": "23 Jan 2021, 10:41:32 pm",
+        "product_title": "Чай",
+        "action": "add"
+    },
+    {
+        "time": "23 Jan 2021, 10:45:05 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:45:05 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:45:06 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:45:06 pm",
+        "action": "remove"
+    },
+    {
+        "time": "23 Jan 2021, 10:45:06 pm",
+        "action": "remove"
+    },
+    {
+        "time": "23 Jan 2021, 10:52:15 pm",
+        "action": "remove"
+    },
+    {
+        "time": "23 Jan 2021, 10:54:24 pm",
+        "product_title": "Бутылка воды",
+        "action": "add"
+    },
+    {
+        "time": "23 Jan 2021, 10:54:30 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:54:30 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:55:09 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:55:09 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:55:21 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:55:22 pm",
+        "product_title": "Арбуз",
+        "action": "add"
+    },
+    {
+        "time": "23 Jan 2021, 10:55:22 pm",
+        "action": "change"
+    },
+    {
+        "time": "23 Jan 2021, 10:55:22 pm",
+        "product_title": "Йогурт",
+        "action": "add"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "quantity": 6,
+        "id": 3,
+        "title": "Бутылка воды",
+        "price": 75,
+        "meas": "шт"
+    },
+    {
+        "quantity": 2,
+        "id": 2,
+        "title": "Арбуз",
+        "price": 48,
+        "meas": "кг"
+    },
+    {
+        "quantity": 1,
+        "id": 1,
+        "title": "Йогурт",
+        "price": 65,
+        "meas": "шт"
+    }
+]
